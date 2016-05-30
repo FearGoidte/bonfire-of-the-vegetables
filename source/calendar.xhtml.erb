@@ -1,0 +1,18 @@
+---
+pageable: true
+---
+
+<% case page_type
+   when 'day'
+     date = Date.new(year, month, day).strftime('%b %e %Y')
+   when 'month'
+     date = Date.new(year, month, 1).strftime('%b %Y')
+   when 'year'
+     date = year
+     date = date.to_s
+    end %>
+<% @title = 'Archive for ‘' + date + '’' %>
+<h1><%= @title %></h1>
+<%= partial 'layouts/pagination_heading' %>
+<%= partial 'layouts/article_list' %>
+<%= partial 'layouts/pagination_links' %>
