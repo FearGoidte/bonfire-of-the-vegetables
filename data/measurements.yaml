@@ -1,0 +1,47 @@
+g:
+  longform: gramme
+  abbreviation: g
+
+gs:
+  longform: grammes
+  abbreviation: g
+
+kg:
+  longform: kilogramme
+  abbreviation: kg
+
+kgs:
+  longform: kilogrammes
+  abbreviation: kg
+
+l:
+  longform: litre
+  abbreviation: L
+
+ls:
+  longform: litres
+  abbreviation: L
+
+ml:
+  longform: millilitre
+  abbreviation: mL
+
+mls:
+  longform: millilitres
+  abbreviation: mL
+
+tbsp:
+  longform: tablespoon
+  abbreviation: tbsp
+
+tbsps:
+  longform: tablespoons
+  abbreviation: tbsp
+
+tsp:
+  longform: teaspoon
+  abbreviation: tsp
+
+tsps:
+  longform: teaspoons
+  abbreviation: tsp
